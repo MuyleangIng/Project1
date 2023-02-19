@@ -6,6 +6,8 @@
 <?php
     include_once 'includes/head.php';
     include('../config/db.php');
+    include_once 'phploginsystem/includes/checklogin.inc.php';
+    checkLogin();
 ?>
 
 <body>

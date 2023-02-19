@@ -1,4 +1,7 @@
 <?php
+include("config.php");
+$config = mysqli_connect(HOST, USER, PASS, DB) or die ("Can not connect to DB!");
+
 	$page = "home.php";
 	$slide = true;
 	if(isset($_GET['p']))

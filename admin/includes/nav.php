@@ -48,6 +48,7 @@
                         <div class="dropdown-menu bg-transparent border-0">
                             <a href="signin.php" class="dropdown-item">Sign In</a>
                             <a href="signup.php" class="dropdown-item">Sign Up</a>
+                            <a href="signout.php" class="dropdown-item">Sign Out</a>
                             <a href="404.php" class="dropdown-item">404 Error</a>
                             <a href="blank.php" class="dropdown-item">Blank Page</a>
                         </div>

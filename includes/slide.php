@@ -23,7 +23,7 @@
 							{
 						?>
                         <div class="carousel-item <?=($i==1?"active":"")?>" style="height: 410px; ">
-                            <img class="img-fluid" src="../admin/img/slideshow/<?=$row['img']?>" alt="Image"/>
+                            <img class="img-fluid" src="./admin/img/slideshow/<?=$row['img']?>" alt="Image"/>
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
 									<h3 class="display-4 font-weight-semi-bold mb-4 text-success" ><?=$row['title']?></h3>
